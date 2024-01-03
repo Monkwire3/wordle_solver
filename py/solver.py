@@ -1,6 +1,6 @@
 from __future__ import annotations
-import string
 from collections import Counter, defaultdict
+import string
 
 class PositionalRequirements:
     def __init__(self) -> None:
@@ -48,9 +48,6 @@ class Word:
                 return False
 
         return True
-
-
-
 
 
 class WordBank:
